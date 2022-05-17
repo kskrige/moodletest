@@ -1,0 +1,9 @@
+---
+- name: test plugin
+  hosts: localhost
+  gather_facts: true
+  
+  tasks:
+    - name:output some text
+      debug:
+        msg: "Hello world. New plugin"
