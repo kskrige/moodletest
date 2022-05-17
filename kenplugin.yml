@@ -4,6 +4,6 @@
   gather_facts: true
   
   tasks:
-    - name:output some text
+    - name: output some text
       debug:
         msg: "Hello world. New plugin"
